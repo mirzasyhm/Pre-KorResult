@@ -21,6 +21,7 @@ public class Main {
         // TODO code application logic here
 
         Scanner scanner = new Scanner(System.in);
+        //Set for all decimalformat to be used
         DecimalFormat df = new DecimalFormat("#0.00");
         DecimalFormat df2 = new DecimalFormat("#0");
         DecimalFormat df3 = new DecimalFormat("#00.00");
