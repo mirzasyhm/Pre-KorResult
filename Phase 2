@@ -1,0 +1,506 @@
+Result_slip
+  prompt for student name
+  get student name
+  prompt for student id
+  get student id
+  prompt for prog
+  get prog
+  Prompt for cwpchm
+	Get cwpchm
+	Prompt for fmpchm
+	Get fmpchm
+ 	totalpchm =  cwpchm / 100 * 50 +  fmpchm / 100 * 50 
+    
+    	IF totalpchm >= 80 THEN
+ 		gradepchm = "A"
+ 		statuspchm = "PASS"
+ 		ptpchm = 4.00
+     	ELSE IF totalpchm >= 75 THEN
+ 		gradepchm = "A-"
+ 		statuspchm = "PASS"
+ 		ptpchm = 3.67
+     		ELSE IF totalpchm >= 70 THEN 
+ 			gradepchm = "B+"
+ 			statuspchm = "PASS"
+ 	 		ptpchm = 3.33
+     				ELSE IF totalpchm >= 65 THEN
+ 					gradepchm = "B"
+ 					statuspchm = "PASS"
+ 					ptpchm = 3.00
+     					ELSE IF totalpchm >= 60 THEN 
+     						gradepchm = "B-"
+     						statuspchm = "PASS"
+     						ptpchm = 2.67
+     						ELSE IF totalpchm >= 55 THEN
+     							gradepchm = "C+"
+     							statuspchm = "PASS"
+     							ptpchm = 2.33
+     							ELSE IF totalpchm >= 50 THEN
+     								gradepchm = "C"
+     								statuspchm = "PASS"
+     								ptpchm = 2.00
+     								ELSE IF totalpchm >= 45 THEN
+     									gradepchm = "C-"
+     									statuspchm = "PASS"
+     									ptpchm = 1.67
+     									ELSE IF totalpchm >= 40 THEN 
+     										gradepchm = "D"
+ 										statuspchm = "PASS"
+ 										ptpchm = 1.00
+    									 ELSE 
+ 										gradepchm = "F"
+ 										statuspchm = "FAIL"
+ 										ptpchm = 0.00
+									ENDIF
+								ENDIF
+							ENDIF
+						ENDIF
+					ENDIF
+				ENDIF
+			ENDIF
+		ENDIF
+	ENDIF
+totalptpchm = ptpchm * 3
+
+  
+    
+    IF prog == 1 THEN
+ 	Prompt for cwpop
+	Get cwpop
+	Prompt for fmpop
+	Get fmpop
+ 	totalpop =  cwpop / 100 * 50 +  fmpop / 100 * 50 
+ 	IF totalpop >= 80 THEN
+ 		gradepop = "A"
+ 		statuspop = "PASS"
+ 		ptpop = 4.00
+     	ELSE IF totalpop >= 75 THEN
+ 		gradepop = "A-"
+ 		statuspop = "PASS"
+ 		ptpop = 3.67
+     		ELSE IF totalpop >= 70 THEN 
+ 			gradepop = "B+"
+ 			statuspop = "PASS"
+ 	 		ptpop = 3.33
+     			ELSE IF totalpop >= 65 THEN
+ 				gradepop = "B"
+ 				statuspop = "PASS"
+ 				ptpop = 3.00
+     				ELSE IF totalpop >= 60 THEN 
+     						gradepop = "B-"
+     						statuspop = "PASS"
+     						ptpop = 2.67
+     						ELSE IF totalpop >= 55 THEN
+     							gradepop = "C+"
+     							statuspop = "PASS"
+     							ptpop = 2.33
+     							ELSE IF totalpop >= 50 THEN
+     								gradepop = "C"
+     								statuspop = "PASS"
+     								ptpop = 2.00
+     								ELSE IF totalpop >= 45 THEN
+     										gradepop = "C-"
+     										statuspop = "PASS"
+     										ptpop = 1.67
+     										ELSE IF totalpop >= 40 THEN 
+     											gradepop = "D"
+ 											statuspop = "PASS"
+ 											ptpop = 1.00
+    									 	ELSE 
+ 											gradepop = "F"
+ 											statuspop = "FAIL"
+ 											ptpop = 0.00
+										ENDIF
+									ENDIF
+								ENDIF
+							ENDIF
+						ENDIF
+					ENDIF
+				ENDIF
+			ENDIF
+		ENDIF
+totalptpop = ptpop * 3
+
+     ELSE 
+ 	Prompt for cwcla
+	Get cwcla
+	Prompt for fmcla
+	Get fmcla
+ 	totalcla =  cwcla / 100 * 50 +  fmcla / 100 * 50 
+ 
+ 	IF totalcla >= 80 THEN
+ 		gradecla = "A"
+ 		statuscla = "PASS"
+ 		ptcla = 4.00
+     		ELSE IF totalcla >= 75 THEN
+ 			gradecla = "A-"
+ 			statuscla = "PASS"
+ 			ptcla = 3.67
+     			ELSE IF totalcla >= 70 THEN 
+ 				gradecla = "B+"
+ 				statuscla = "PASS"
+ 	 			ptcla = 3.33
+     				ELSE IF totalcla >= 65 THEN
+ 					gradecla = "B"
+ 					statuscla = "PASS"
+ 					ptcla = 3.00
+     					ELSE IF totalcla >= 60 THEN 
+     						gradecla = "B-"
+     						statuscla = "PASS"
+     						ptcla = 2.67
+     						ELSE IF totalcla >= 55 THEN
+     							gradecla = "C+"
+     							statuscla = "PASS"
+     							ptcla = 2.33
+     							ELSE IF totalcla >= 50 THEN
+     								gradecla = "C"
+     								statuscla = "PASS"
+     								ptcla = 2.00
+     								ELSE IF totalcla >= 45 THEN
+     									gradecla = "C-"
+     									statuscla = "PASS"
+     									ptcla = 1.67
+     									ELSE IF totalcla >= 40 THEN 
+     										gradecla = "D"
+ 										statuscla = "PASS"
+ 										ptcla = 1.00
+    									 ELSE 
+ 										gradecla = "F"
+ 										statuscla = "FAIL"
+ 										ptcla = 0.00
+									ENDIF
+								ENDIF
+							ENDIF
+						ENDIF
+					ENDIF
+				ENDIF
+			ENDIF
+		ENDIF
+	ENDIF
+totalptcla = ptcla * 3
+    ENDIF
+    
+Prompt for cwkl
+	Get cwkl
+	Prompt for fmkl
+	Get fmkl
+    	totalkl =  cwkl / 100 * 50 +  fmkl / 100 * 50 
+    
+    IF totalkl >= 80 THEN
+ 	gradekl = "A"
+ 	statuskl = "PASS"
+ 	ptkl = 4.00
+     	ELSE IF totalkl >= 75 THEN
+ 	gradekl = "A-"
+ 		statuskl = "PASS"
+ 	ptkl = 3.67
+     		ELSE IF totalkl >= 70 THEN 
+ 		gradekl = "B+"
+ 		statuskl = "PASS"
+ 	 		ptkl = 3.33
+     				ELSE IF totalkl >= 65 THEN
+ 				gradekl = "B"
+ 				statuskl = "PASS"
+ 				ptkl = 3.00
+     					ELSE IF totalkl >= 60 THEN 
+     						gradekl = "B-"
+     						statuskl = "PASS"
+     						ptkl = 2.67
+     						ELSE IF totalkl >= 55 THEN
+     							gradekl = "C+"
+     							statuskl = "PASS"
+     							ptkl = 2.33
+     							ELSE IF totalkl >= 50 THEN
+     								gradekl = "C"
+     								statuskl = "PASS"
+     								ptkl = 2.00
+     								ELSE IF totalkl >= 45 THEN
+     									gradekl = "C-"
+     									statuskl = "PASS"
+     									ptkl = 1.67
+     									ELSE IF totalkl >= 40 THEN 
+     										gradekl = "D"
+ 									statuskl = "PASS"
+ 									ptkl = 1.00
+    									 ELSE 
+ 										gradekl = "F"
+ 									statuskl = "FAIL"
+ 									ptkl = 0.00
+									ENDIF
+								ENDIF
+							ENDIF
+						ENDIF
+					ENDIF
+				ENDIF
+			ENDIF
+		ENDIF
+	ENDIF
+totalptkl = ptkl * 4
+
+    	Prompt for cwkc
+	Get cwkc
+	Prompt for fmkc
+    	Get fmkc
+     	totalkc =  cwkc / 100 * 50 +  fmkc / 100 * 50 
+    
+
+
+IF totalkc >= 80 THEN
+ 	gradekc = "A"
+ 	statuskc = "PASS"
+ 	ptkc = 4.00
+     	ELSE IF totalkc >= 75 THEN
+ 	gradekc = "A-"
+ 		statuskc = "PASS"
+ 	ptkc = 3.67
+     		ELSE IF totalkc >= 70 THEN 
+ 		gradekc = "B+"
+ 		statuskc = "PASS"
+ 	 		ptkc = 3.33
+     				ELSE IF totalkc >= 65 THEN
+ 				gradekc = "B"
+ 				statuskc = "PASS"
+ 				ptkc = 3.00
+     					ELSE IF totalkc >= 60 THEN 
+     						gradekc = "B-"
+     						statuskc = "PASS"
+     						ptkc = 2.67
+     						ELSE IF totalkc >= 55 THEN
+     							gradekc = "C+"
+     							statuskc = "PASS"
+     							ptkc = 2.33
+     							ELSE IF totalkc >= 50 THEN
+     								gradekc = "C"
+     								statuskc = "PASS"
+     								ptkc = 2.00
+     								ELSE IF totalkc >= 45 THEN
+     									gradekc = "C-"
+     									statuskc = "PASS"
+     									ptkc = 1.67
+     									ELSE IF totalkc >= 40 THEN 
+     										gradekc = "D"
+ 									statuskc = "PASS"
+ 									ptkc = 1.00
+    									 ELSE 
+ 										gradekc = "F"
+ 									statuskc = "FAIL"
+ 									ptkc = 0.00
+									ENDIF
+								ENDIF
+							ENDIF
+						ENDIF
+					ENDIF
+				ENDIF
+			ENDIF
+		ENDIF
+	ENDIF
+totalptkc = ptkc * 4
+
+
+
+   IF prog == 1 THEN
+ 	Prompt for cwcl
+	Get cwcl
+	Prompt for fmcl
+	Get fmcl
+ 	totalcl =  cwcl / 100 * 50 +  fmcl / 100 * 50 
+ 
+IF totalcl >= 80 THEN
+ 	gradecl = "A"
+ 	statuscl = "PASS"
+ 	ptcl = 4.00
+     	ELSE IF totalcl >= 75 THEN
+ 	gradecl = "A-"
+ 		statuscl = "PASS"
+ 	ptcl = 3.67
+     		ELSE IF totalcl >= 70 THEN 
+ 		gradecl = "B+"
+ 		statuscl = "PASS"
+ 	 		ptcl = 3.33
+     				ELSE IF totalcl >= 65 THEN
+ 				gradecl = "B"
+ 				statuscl = "PASS"
+ 				ptcl = 3.00
+     					ELSE IF totalcl >= 60 THEN 
+     						gradecl = "B-"
+     						statuscl = "PASS"
+     						ptcl = 2.67
+     						ELSE IF totalcl >= 55 THEN
+     							gradecl = "C+"
+     							statuscl = "PASS"
+     							ptcl = 2.33
+     							ELSE IF totalcl >= 50 THEN
+     								gradecl = "C"
+     								statuscl = "PASS"
+     								ptcl = 2.00
+     								ELSE IF totalcl >= 45 THEN
+     									gradecl = "C-"
+     									statuscl = "PASS"
+     									ptcl = 1.67
+     									ELSE IF totalcl >= 40 THEN 
+     										gradecl = "D"
+ 									statuscl = "PASS"
+ 									ptcl = 1.00
+    									 ELSE 
+ 										gradecl = "F"
+ 									statuscl = "FAIL"
+ 									ptcl = 0.00
+									ENDIF
+								ENDIF
+							ENDIF
+						ENDIF
+					ENDIF
+				ENDIF
+			ENDIF
+		ENDIF
+	ENDIF
+totalptcl = ptcl * 4
+
+     ELSE 
+	Prompt for cwbd
+	Get cwbd
+	Prompt for fmbd
+ 	Get cwbd
+ totalbd =  cwbd / 100 * 50 +  fmbd / 100 * 50 
+ 
+ IF totalbd >= 80 THEN
+ 	gradebd = "A"
+ 	statusbd = "PASS"
+ 	ptbd = 4.00
+     	ELSE IF totalbd >= 75 THEN
+ 	gradebd = "A-"
+ 		statusbd = "PASS"
+ 	ptbd = 3.67
+     		ELSE IF totalbd >= 70 THEN 
+ 		gradebd = "B+"
+ 		statusbd = "PASS"
+ 	 		ptbd = 3.33
+     				ELSE IF totalbd >= 65 THEN
+ 				gradebd = "B"
+ 				statusbd = "PASS"
+ 				ptbd = 3.00
+     					ELSE IF totalbd >= 60 THEN 
+     						gradebd = "B-"
+     						statusbd = "PASS"
+     						ptbd = 2.67
+     						ELSE IF totalbd >= 55 THEN
+     							gradebd = "C+"
+     							statusbd = "PASS"
+     							ptbd = 2.33
+     							ELSE IF totalbd >= 50 THEN
+     								gradebd = "C"
+     								statusbd = "PASS"
+     								ptbd = 2.00
+     								ELSE IF totalbd >= 45 THEN
+     									gradebd = "C-"
+     									statusbd = "PASS"
+     									ptbd = 1.67
+     									ELSE IF totalbd >= 40 THEN 
+     										gradebd = "D"
+ 									statusbd = "PASS"
+ 									ptbd = 1.00
+    									 ELSE 
+ 										gradebd = "F"
+ 									statusbd = "FAIL"
+ 									ptbd = 0.00
+									ENDIF
+								ENDIF
+							ENDIF
+						ENDIF
+					ENDIF
+				ENDIF
+			ENDIF
+		ENDIF
+	ENDIF
+totalptbd = ptbd * 4
+   ENDIF
+
+ 	Prompt for cwicc
+Get cwicc
+Prompt for fmicc
+Get fmicc    
+    	totalicc =  cwicc / 100 * 50 +  fmicc / 100 * 50 
+    
+    IF totalicc >= 80 THEN
+ 	gradeicc = "A"
+ 	statusicc = "PASS"
+ 	pticc = 4.00
+     	ELSE IF totalicc >= 75 THEN
+ 	gradeicc = "A-"
+ 		statusicc = "PASS"
+ 	pticc = 3.67
+     		ELSE IF totalicc >= 70 THEN 
+ 		gradeicc = "B+"
+ 		statusicc = "PASS"
+ 	 		pticc = 3.33
+     				ELSE IF totalicc >= 65 THEN
+ 				gradeicc = "B"
+ 				statusicc = "PASS"
+ 				pticc = 3.00
+     					ELSE IF totalicc >= 60 THEN 
+     						gradeicc = "B-"
+     						statusicc = "PASS"
+     						pticc = 2.67
+     						ELSE IF totalicc >= 55 THEN
+     							gradeicc = "C+"
+     							statusicc = "PASS"
+     							pticc = 2.33
+     							ELSE IF totalicc >= 50 THEN
+     								gradeicc = "C"
+     								statusicc = "PASS"
+     								pticc = 2.00
+     								ELSE IF totalicc >= 45 THEN
+     									gradeicc = "C-"
+     									statusicc = "PASS"
+     									pticc = 1.67
+     									ELSE IF totalicc >= 40 THEN 
+     										gradeicc = "D"
+ 									statusicc = "PASS"
+ 									pticc = 1.00
+    									 ELSE 
+ 										gradeicc = "F"
+ 									statusicc = "FAIL"
+ 									pticc = 0.00
+									ENDIF
+								ENDIF
+							ENDIF
+						ENDIF
+					ENDIF
+				ENDIF
+			ENDIF
+		ENDIF
+	ENDIF
+totalpticc = pticc * 
+    	totalpt = totalptpop + totalpticc + totalptkc + totalptkl + totalptcl + totalptpchm
+    	gpa = totalpt / 20
+    	cgpa = gpa
+   	Display "University Kuala Lumpur" 
+   	Display "Result Slip Semester July 2020”
+Display "Name    : " + name 
+Display "Student ID : " + id 
+Display "Program   : FOUNDATION IN SCIENCE AND TECHNOLOGY FOR KOREAN UNIVERSITY "
+Display "Semester  : 1"     
+    	Display "Credit Hour\tGrade\tPoint\tCoursework   " + "Final\tTotal\tStatus\tTotal Point" 
+Display "1. IDP01103 - INTRODUCTION TO PC HARDWARE AND MAINTENANCE 3" + gradepchm +  ptpchm  +  cwpchm +    fmpchm  +  totalpchm  + statuspchm +  totalptpchm 
+    
+  	IF prog == 1 THEN
+Display "2. IDP01203 - PRINCIPLES OF PROGRAMMING "+ 3 + gradepop +  ptpop  +  cwpop +    fmpop  +  totalpop  + statuspop +  totalptpop 
+ 	ELSE 
+Display "2. IDP07303 - CINEMATIC LANGUAGE AND APPRECIATION "+ 3 + gradecla +  ptcla  +  cwcla +    fmcla  +  totalcla  + statuscla +  totalptcla 
+ 	ENDIF
+
+Display "3. IDP06904 - KOREAN LANGUAGE 1 "+ 4 + gradekl +  ptkl  +  cwkl +    fmkl  +  totalkl  + statuskl +  totalptkl 
+Display "4. IDP070 THEN04 - KOREAN COMMUNICATION 1 "+ 4 + gradekc +  ptkc  +  cwkc +    fmkc  +  totalkc  + statuskc +  totalptkc 
+
+IF prog == 1 THEN
+Display "5. IDP07104 - CALCULUS 1 “+ 4 + gradecl +  ptcl  +  cwcl +    fmcl  +  totalcl  + statuscl +  totalptcl 
+
+ELSE 
+Display "5. IDP08704 - BASIC DRAWING "+ 4 + gradebd +  ptbd  +  cwbd +    fmbd  + totalbd  + statusbd +  totalptbd 
+ENDIF
+
+Display "6. IDP07202 - INTRODUCTION TO INTERCULTURAL COMMUNICATION 2" + gradeicc +  pticc  +  cwicc +    fmicc  +  totalicc  + statusicc +  totalpticc 
+    
+Display "Total" +   "  20" +  totalpt 
+Display "GPA: " +  gpa +    "CGPA: " +  cgpa 
+END
